@@ -1,0 +1,24 @@
+layers = 65536 25 10 5
+
+numCases = 5
+
+lambda = 0.1
+maxIterations = 100000
+errorThreshold = 0.0015
+
+randLow = -0.1
+randHigh = 0.1
+
+trainingMode = false
+runningMode = true
+
+randomizeWeights = false
+
+inputFile = inputs_5_activations_testing.bin
+printInput = false
+
+save = false
+saveFile = weights_images_by_sample.bin
+loadFile = weights_images_by_sample.bin
+
+keepAlive = 10000

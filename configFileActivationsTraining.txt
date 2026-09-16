@@ -1,0 +1,26 @@
+layers = 65536 25 10 5
+
+numCases = 25
+
+lambda = 0.1
+maxIterations = 100000
+errorThreshold = 0.0002
+
+randLow = -0.1
+randHigh = 0.1
+
+trainingMode = false
+runningMode = true
+
+randomizeWeights = false
+
+inputFile = inputs_25_activations.bin
+truthTableFile = truthTable_activations.txt
+printInput = false
+printTruth = true
+
+save = true
+saveFile = weights_images.bin
+loadFile = weights_images.bin
+
+keepAlive = 100

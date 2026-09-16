@@ -1,0 +1,26 @@
+layers = 2 5 10 15 3
+
+numCases = 4
+
+lambda = 0.3
+maxIterations = 100000
+errorThreshold = 2e-4
+
+randLow = -1.5
+randHigh = 1.5
+
+trainingMode = true
+runningMode = true
+
+randomizeWeights = true
+
+inputFile = inputs.bin
+truthTableFile = truthTable.txt
+printInput = true
+printTruth = true
+
+save = true
+saveFile = weights.bin
+loadFile = weights.bin
+
+keepAlive = 10000
